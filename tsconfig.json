@@ -13,7 +13,8 @@
     "noEmit": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "incremental": true
   },
   "exclude": ["node_modules", "deployments", ".next", "out"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
