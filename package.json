@@ -8,7 +8,8 @@
     "start": "next start",
     "check-types": "tsc --noEmit",
     "lint": "eslint src/**/*.{ts,tsx}",
-    "lint:fix": "eslint src/**/*.{ts,tsx} --fix"
+    "lint:fix": "eslint src/**/*.{ts,tsx} --fix",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "next": "12.1.6",
